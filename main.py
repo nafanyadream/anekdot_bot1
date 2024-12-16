@@ -5,10 +5,10 @@ import asyncio
 import random
 from bs4 import BeautifulSoup
 
-import password.txt # Замените на токен вашего бота
+import password # Замените на токен вашего бота
 
 # Инициализация бота и диспетчера
-bot = Bot(token=TOKEN)
+bot = Bot(token=password.TOKEN)
 dp = Dispatcher()
 
 # Функция для получения случайного анекдота с сайта anekdot.ru
