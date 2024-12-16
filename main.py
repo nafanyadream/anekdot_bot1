@@ -5,7 +5,7 @@ import asyncio
 import random
 from bs4 import BeautifulSoup
 
-TOKEN = '7915766873:AAECjWAJF9lu6pCm_aRxZBhFKgoAo2QFdHs'  # Замените на токен вашего бота
+import password.txt # Замените на токен вашего бота
 
 # Инициализация бота и диспетчера
 bot = Bot(token=TOKEN)
